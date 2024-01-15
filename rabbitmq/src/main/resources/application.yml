@@ -4,3 +4,11 @@ spring:
     port: 5672
     username: guest
     password: guest
+
+rabbitmq:
+  queue:
+    name: rabbitmq-queue
+  exchange:
+    name: rabbitmq-exchange
+  routing:
+    key: rabbitmq-routing-key
